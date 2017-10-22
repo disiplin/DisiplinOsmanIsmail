@@ -33,13 +33,15 @@
             this.öğrenciEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğrenciDisiplinListeleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğrenciBilgileriniAlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.denemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.öğrenciİşlemleriAltÖToolStripMenuItem});
+            this.öğrenciİşlemleriAltÖToolStripMenuItem,
+            this.denemeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(645, 24);
@@ -76,6 +78,12 @@
             this.öğrenciBilgileriniAlToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.öğrenciBilgileriniAlToolStripMenuItem.Text = "Öğrenci Bilgilerini Al";
             // 
+            // denemeToolStripMenuItem
+            // 
+            this.denemeToolStripMenuItem.Name = "denemeToolStripMenuItem";
+            this.denemeToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.denemeToolStripMenuItem.Text = "Deneme ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -100,6 +108,7 @@
         private System.Windows.Forms.ToolStripMenuItem öğrenciEkleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem öğrenciDisiplinListeleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem öğrenciBilgileriniAlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem denemeToolStripMenuItem;
     }
 }
 
